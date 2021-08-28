@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+img.image{
+    
+    max-width: 100%;
+}
+
+
+.control{
+    position: relative;
+}
+.control i{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    margin-left:5px;
+    visibility: hidden;
+    
+}
+.control i{
+    position: absolute;
+    top: 5rem;
+    right: 1rem;
+    visibility: hidden;
+}
+.control input{
+    border-radius: 9px;
+}
+.control.error i.fas{
+    color: red;
+    visibility: visible;
+}
+.control.error i.far{
+    color: red;
+    visibility: hidden;
+}
+.control.success i.far{
+   color: rgb(21, 195, 15);
+    visibility: visible;
+}
+.control.success input{
+border-color: rgb(21, 195, 15);
+border-width: 2px;
+border-radius: 4px;
+}
+.control.error input{
+border-color: red;
+border-width: 2px;
+border-radius: 4px;
+}
+.control.error small{
+    color: red;
+}
+.control.success small{
+    color: rgb(21, 195, 15);
+}
+
+
+/* .form{
+    padding: 2.5rem 3rem;
+}
+.control{
+    margin-bottom: 1rem;
+    padding-bottom: .5rem;
+    position: relative;
+
+}
+.control label{
+    display: inline-block;
+    margin-bottom: .25rem;
+}
+.control input{
+    border: 2px solid #f0f0f0 ;
+    border-radius: 4px;
+    display: block;
+    padding: .8rem;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+.control i{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    margin-left:5px;
+    visibility: hidden;
+    
+}
+.control.success input{
+    border-color:#2ecc71 ;
+    visibility: visible;
+}
+.control.error input{
+border-color: #e74c3c;
+    visibility: visible;
+}
+.control.success i.far{
+    visibility: visible;
+    color:#2ecc71 ;
+}
+.form-control.error i.fas{
+    color: #e74c3c;
+    visibility: visible;
+}
+.control small{
+    position: absolute;
+    bottom: -10px; 
+    left: 0;
+}
+.control.error small{
+    color: #e74c3c;
+    visibility: visible;
+} */
